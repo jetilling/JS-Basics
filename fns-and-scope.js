@@ -35,7 +35,7 @@ function getName() {
 
   //Code Here
 function welcome() {
-  return 'Welcome ' + getName();
+  alert('Welcome, ' + getName());
 }
 
 //////////////////PROBLEM 4////////////////////
@@ -58,7 +58,7 @@ function welcome() {
 
 
   //Answer Here
- // 0, '', false, undefined, null, NaN. You check if something is falsey by checking if it's not true, by means of a
+ // 0, '', false, undefined, null, NaN. You check if something is falsey by checking if it's not true, by means of
  //   an if statement.
 
 
@@ -70,20 +70,20 @@ function welcome() {
 
   //Code Here
 
-  function myName() {
+function myName() {
     return 'Josh';
-  }
+}
 
 
 
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
-var newMyName = myName();
+var newMyName = myName;
 
 //Now alert the result of invoking newMyName
 
-alert(newMyName;
+alert(newMyName);
 
 
 //////////////////PROBLEM 7////////////////////
